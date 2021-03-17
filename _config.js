@@ -20,7 +20,7 @@ module.exports = {
   website: 'https://leejaek.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
-  instagram: 'https://www.instagram/leejaek',                                                         // ex.'https://www.instagram.com/junhobaik'
+  instagram: 'https://www.instagram.com/leejaek',                                                         // ex.'https://www.instagram.com/junhobaik'
   github: 'https://github.com/leejaek',                                                            // ex.'https://github.com/junhobaik'
 
   /** Post */
