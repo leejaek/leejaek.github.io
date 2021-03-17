@@ -1,12 +1,10 @@
 module.exports = {
   /** Site MetaData (Required all)*/
   title: `jaylight.dev`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
+  description: `Jaehyeok Lee's Development Blog`,          // (* Required)
   author: `Jaehyeok Lee`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
   siteUrl: 'https://leejaek.github.io',                      // (* Required)
-    // ex.'https://junhobaik.github.io'
-    // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
   /** Header */
   profileImageFileName: '', // include filename extension ex.'profile.jpg'
