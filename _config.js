@@ -14,16 +14,16 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
+  comment: 'Jr. Back-end Developer',
+  name: 'Jaehyeok Lee',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
+  email: 'leejh9049@gmail.com',
+  website: 'https://leejaek.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
-  instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
-  github: '',                                                            // ex.'https://github.com/junhobaik'
+  instagram: 'https://www.instagram/leejaek',                                                         // ex.'https://www.instagram.com/junhobaik'
+  github: 'https://github.com/leejaek',                                                            // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
