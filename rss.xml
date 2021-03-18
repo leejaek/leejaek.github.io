@@ -1,48 +1,536 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jaylight.dev | Feed]]></title><description><![CDATA[Jaehyeok Lee's Development Blog]]></description><link>https://leejaek.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Mar 2021 16:11:20 GMT</lastBuildDate><item><title><![CDATA[Tag, 태그 게시물 예제]]></title><description><![CDATA[게시물에 태그를 지정할 수 있습니다. 해당 게시물의 Markdown YAML Front matter은 아래와 같습니다. 가이드의 Markdown YAML Front matter를 참고하세요. 자세한 가이드는 Documents를 확인해주세요.]]></description><link>https://leejaek.github.io/tag-post-example/</link><guid isPermaLink="false">https://leejaek.github.io/tag-post-example/</guid><pubDate>Sun, 24 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;게시물에 태그를 지정할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;해당 게시물의 Markdown YAML Front matter은 아래와 같습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
-title: Tag, 태그 게시물 예제
-date: 2019-07-30
-tags:
-  - tag
-  - 태그
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;가이드의 Markdown YAML Front matter를 참고하세요.&lt;/p&gt;
-&lt;p&gt;자세한 가이드는 &lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Image, 이미지 게시물 예제]]></title><description><![CDATA[이미지 파일이 첨부된 게시물의 예제입니다. 폴더를 만들고 폴더의 제목이 해당 게시물의 주소가 됩니다. 게시물 파일명은 index.md 로 합니다. 이미지 파일은 폴더 내에 위치시킵니다. 자세한 가이드는 Documents를 확인해주세요.]]></description><link>https://leejaek.github.io/image-post-example.md/</link><guid isPermaLink="false">https://leejaek.github.io/image-post-example.md/</guid><pubDate>Sun, 24 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/c0566/screenshot.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB00lEQVQ4y52SW2sUMRiG1+qN3uwhx0nmkMOeatei9G8I/igPoAi6IuKVf05hL6wj88lQaNHxzW531SKWNfDwJZnkmTchvR7aiXe3HxxX3ATLjDbMmA0WZFnGQggsxsi01uv5NHcFjvk7vW1bWPt4cWjPZKk/SiFXUv5CcL4qy3LlqmrF0VdKXeUT+Ia1z3dCIfgbrWWnpGiUlC0WtPI30lhp3WJTK4RsGeMt5FtICNExxt7vhEqJ16Gquli5L7MQmqM4bu77RGwWGN8bx2bufFNWFTAN1jeciwaiRA2+Q/huJ5R5viwWR115fFLLOCVtDAWmKI40WS6oshk5KckYVC8ozwVdJoOYf0X98YcwM2Y5mR12k/mins7vEpJQVhSUo5bOky1KMhhjHY1GnHDkJEvSvwsxsayc65xztfcBKQLF8YR8jOh7KpIsM2vJln8mNNYsy+msG/pYMyRK6SbC0hTkSpMvcAVa46iWwlhSXlwjlJwvM607JmXNcVcCSKRQfJNGbpEbrk04YuwVPnR4c59R6z05hfACwrc7YXpDeGMdPpynv+3JRdoLx4edsN/vPxwMBi9Rn6A+2wfseYr6AvXRWjYcDm9ceg/ALXDzPzjYun4C4yPqy09MVMcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;screenshot&quot;
-        title=&quot;screenshot&quot;
-        src=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/fcda8/screenshot.png&quot;
-        srcset=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/12f09/screenshot.png 148w,
-/static/483b2386e38636bd5d9e7357b4c6796b/e4a3f/screenshot.png 295w,
-/static/483b2386e38636bd5d9e7357b4c6796b/fcda8/screenshot.png 590w,
-/static/483b2386e38636bd5d9e7357b4c6796b/efc66/screenshot.png 885w,
-/static/483b2386e38636bd5d9e7357b4c6796b/c83ae/screenshot.png 1180w,
-/static/483b2386e38636bd5d9e7357b4c6796b/c0566/screenshot.png 1544w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;이미지 파일이 첨부된 게시물의 예제입니다.&lt;/p&gt;
-&lt;p&gt;폴더를 만들고 폴더의 제목이 해당 게시물의 주소가 됩니다.&lt;/p&gt;
-&lt;p&gt;게시물 파일명은 index.md 로 합니다.&lt;/p&gt;
-&lt;p&gt;이미지 파일은 폴더 내에 위치시킵니다.&lt;/p&gt;
-&lt;p&gt;자세한 가이드는 &lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Borderless Documents]]></title><description><![CDATA[블로그를 본인에 맞춰 커스터마이징하려면 우선 config.js의 수정이 필요합니다. Documents를 확인해주세요.]]></description><link>https://leejaek.github.io/first-post/</link><guid isPermaLink="false">https://leejaek.github.io/first-post/</guid><pubDate>Sat, 23 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;블로그를 본인에 맞춰 커스터마이징하려면 우선 config.js의 수정이 필요합니다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jaylight.dev | Feed]]></title><description><![CDATA[Jaehyeok Lee's Development Blog]]></description><link>https://leejaek.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Mar 2021 04:16:31 GMT</lastBuildDate><item><title><![CDATA[Python 자료형]]></title><description><![CDATA[수 자료형 정수형 (Integer) 정수를 다루는 자료형 양의 정수, 음의 정수, 0 실수형 (Real Number) 소수점 아래의 데이터를 포함하는 수 자료형 변수에 소수점을 붙인 수를 대입하면 실수형 변수로 처리됨 소수부가 0이거나, 정수부가 0…]]></description><link>https://leejaek.github.io/Python자료형/</link><guid isPermaLink="false">https://leejaek.github.io/Python자료형/</guid><pubDate>Fri, 16 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;수-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;수 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수 자료형&lt;/h2&gt;
+&lt;h3 id=&quot;정수형-integer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%88%98%ED%98%95-integer&quot; aria-label=&quot;정수형 integer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정수형 (Integer)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;정수를 다루는 자료형&lt;/li&gt;
+&lt;li&gt;양의 정수, 음의 정수, 0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#1000&lt;/span&gt;
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#-7&lt;/span&gt;
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;실수형-real-number&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%88%98%ED%98%95-real-number&quot; aria-label=&quot;실수형 real number permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실수형 (Real Number)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;소수점 아래의 데이터를 포함하는 수 자료형&lt;/li&gt;
+&lt;li&gt;변수에 소수점을 붙인 수를 대입하면 실수형 변수로 처리됨&lt;/li&gt;
+&lt;li&gt;소수부가 0이거나, 정수부가 0인 경우, 0을 생략하고 작성 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;157.93&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 157.93&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1837.2&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# -1837.2&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 5.0&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;.7&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# -0.7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;e를-활용한-지수표현&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#e%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%A7%80%EC%88%98%ED%91%9C%ED%98%84&quot; aria-label=&quot;e를 활용한 지수표현 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;e를 활용한 지수표현&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;e, E를 이용한 지수 표현 방식을 이용 가능
+e 다음에 오는 수: 10의 지수부 (1e9 = 10의 9제곱)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;유&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;효&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;숫&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;자&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;지&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;수&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;유&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;효&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;숫&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;자&lt;/mi&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;지&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;수&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;유효숫자 e ^{지수} = 유효숫자 * 10^{지수}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.43056em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;유&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;효&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;숫&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;자&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.413em;&quot;&gt;&lt;span style=&quot;top:-3.113em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord hangul_fallback mtight&quot;&gt;지&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback mtight&quot;&gt;수&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.46528em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;유&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;효&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;숫&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback&quot;&gt;자&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.413em;&quot;&gt;&lt;span style=&quot;top:-3.113em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord hangul_fallback mtight&quot;&gt;지&lt;/span&gt;&lt;span class=&quot;mord hangul_fallback mtight&quot;&gt;수&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e를 활용한 지수표현이 덜 번거롭고, 자릿수 실수를 할 확률이 줄어듬&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;지수표현방식은 코딩 테스트에서 자주 활용됨&lt;/strong&gt;
+&lt;em&gt;ex. 최단 경로문제&lt;/em&gt;
+도달할 수 없는 노드에 대한 최단 거리 = 무한(INF)
+최단 경로로 가능한 최댓값이 10억 미만이라면, 무한(INF)를 표현할 때, 1e9로 표현&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 10억의 지수 표현 방식&lt;/span&gt;
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e9&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 1000000000.0&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;75.25e1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 752.5&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3954e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 3.954&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;round를-이용한-실수-처리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#round%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%88%98-%EC%B2%98%EB%A6%AC&quot; aria-label=&quot;round를 이용한 실수 처리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;round를 이용한 실수 처리&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;컴퓨터의 수 데이터 처리 원리와 한계&lt;/strong&gt;
+컴퓨터의 수 데이터 처리 → 2진수
+실수 처리를 위해 부등 소수점(Floating-poing) 방식을 이용
+IEEE754 표준은 실수형 저장을 위해 4바이트 혹은 8바이트의 고정 메모리를 할당하며,
+이로 인해 현대 컴퓨터 시스템은 대체로 실수 정보를 표현하는 정확도에 한계를 가짐&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;컴퓨터의 구조적 한계로, 일부 실수에서 미세한 오차가 발생하기도 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#0.8999999999999&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;소수점 값 비교 작업이 필요한 문제의 경우, 실수 값의 정확한 비교를 위해 &lt;code class=&quot;language-text&quot;&gt;round()&lt;/code&gt; 함수를 이용&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;round((실수형데이터), (반올림하고자 하는 위치 -1))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;두 번째 &lt;code class=&quot;language-text&quot;&gt;(반올림하고자 하는 위치 - 1)&lt;/code&gt;을 생략하는 경우, 소수점 첫째 자리에서 반올림&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;123.456&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 123.46&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;코딩테스트에서 실수형 데이터 비교 시, 소수점 다섯 번째 자리에서 반올림한 결과가 같으면 정답으로 처리되므로
+&lt;code class=&quot;language-text&quot;&gt;round((실수형데이터), 4))&lt;/code&gt;로 처리하도록 함&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#0.9&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;수-자료형의-연산&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%98-%EC%97%B0%EC%82%B0&quot; aria-label=&quot;수 자료형의 연산 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수 자료형의 연산&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그래밍에서는 사칙연산 (&lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;-&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;x&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;)을 이용해 계산&lt;/li&gt;
+&lt;li&gt;이 중 나누기 연산자(&lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;)를 사용시 주의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;나누기-연산자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%82%98%EB%88%84%EA%B8%B0-%EC%97%B0%EC%82%B0%EC%9E%90&quot; aria-label=&quot;나누기 연산자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;나누기 연산자&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;나누기 연산자(&lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;)의 결과는 기본적으로 실수형으로 처리&lt;/li&gt;
+&lt;li&gt;나머지 연산자(&lt;code class=&quot;language-text&quot;&gt;%&lt;/code&gt;): 나누기 연산의 나머지를 반환 (정수형)&lt;/li&gt;
+&lt;li&gt;몫 연산자(&lt;code class=&quot;language-text&quot;&gt;//&lt;/code&gt;): 나누기 연산의 몫을 반환 (정수형)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;
+b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#2.333333333333335&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#1&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;거듭제곱-연산자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1-%EC%97%B0%EC%82%B0%EC%9E%90&quot; aria-label=&quot;거듭제곱 연산자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;거듭제곱 연산자&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;거듭제곱 연산자(**)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#125&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;리스트-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;리스트 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 자료형&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트: 여러 개의 데이터를 연속적으로 담아 처리하기 위해 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;python의-리스트-특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python%EC%9D%98-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;python의 리스트 특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;python의 리스트 특징&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;C나 Java와 같은 프로그래밍 언어의 &apos;배열(Array)&apos;기능이 포함&lt;/li&gt;
+&lt;li&gt;내부적으로 &apos;연결 리스트 자료구조&apos;를 채택&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;append()&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;remove()&lt;/code&gt; 등의 메서드를 지원&lt;/li&gt;
+&lt;li&gt;C++의 STL vector와 유사&lt;/li&gt;
+&lt;li&gt;배열 혹은 테이블이라고 부르기도 함&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;리스트-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;리스트 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 만들기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트는 대괄호(&lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt;) 안에 원소를 넣어 초기화하며,&lt;/li&gt;
+&lt;li&gt;쉼표(&lt;code class=&quot;language-text&quot;&gt;,&lt;/code&gt;)로 원소를 구분&lt;/li&gt;
+&lt;li&gt;리스트 내 원소에 접근할 때는 인덱스 값을 괄호안에 넣음
+이때, 인덱스는 0부터 시작&lt;/li&gt;
+&lt;li&gt;빈 리스트 선언: &lt;code class=&quot;language-text&quot;&gt;list()&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#[1, 2, 3, 4, 5, 6, 7, 8, 9]&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 5&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# []&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# []&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;크기가-n인-1차원-리스트-초기화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%81%AC%EA%B8%B0%EA%B0%80-n%EC%9D%B8-1%EC%B0%A8%EC%9B%90-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B4%88%EA%B8%B0%ED%99%94&quot; aria-label=&quot;크기가 n인 1차원 리스트 초기화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;크기가 N인 1차원 리스트 초기화&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;코딩 테스트 문제 중, 크기가 N인 1차원 리스트 초기화의 경우 다음과 같이 수행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 크기가 N이고, 모든 값이 0인 1차원 리스트 초기화&lt;/span&gt;
+n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; n
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;리스트-인덱싱과-슬라이싱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EB%8D%B1%EC%8B%B1%EA%B3%BC-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1&quot; aria-label=&quot;리스트 인덱싱과 슬라이싱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 인덱싱과 슬라이싱&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;인덱싱(Indexing): 인덱스 값을 입력하여, 리스트의 특정한 원소에 접근하는 것&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;양의 정수 &amp;#x26; 음의 정수 사용이 가능
+음의 정수 사용시, 원소를 뒤에서부터 거꾸로 탐색&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;print(a[-3]) # 7&lt;/p&gt;
+&lt;p&gt;a[3] = 7
+print(a) # [1, 2, 3, 7, 5, 6, 7, 8, 9]&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- 슬라이싱(Slicing): 리스트에서 연속적인 위치를 갖는 원소들을 가져오기 위해, 대괄호 안에 콜론`:`을 넣어 시작 인덱스와 (끝 인덱스 -1)을 설정
+```python
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(a[1:4]) # [2, 3, 4]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;리스트-컴프리핸션&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%BB%B4%ED%94%84%EB%A6%AC%ED%95%B8%EC%85%98&quot; aria-label=&quot;리스트 컴프리핸션 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 컴프리핸션&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트 컴프리핸션은 리스트를 초기화하는 방법 중 하나&lt;/li&gt;
+&lt;li&gt;대괄호&lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt;안에 조건문과 반복문을 넣는 방식으로 리스트를 초기화&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 0부터 19까지의 수 중에서 홀수만 포함하는 리스트&lt;/span&gt;
+array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;일반적으로 작성된 코드와 리스트 컴프리핸션을 이용한 코드를 비교해보면,
+리스트 컴프리핸션을 이용한 코드가 훨씬 짧고 간결한 것을 알 수 있음&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    	array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 1부터 9까지의 수의 제곱값을 포함하는 리스트&lt;/span&gt;
+array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;i &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [1, 4, 9, 16, 25, 36, 49, 64, 81]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;리스트 컴프리헨션은 코딩테스트에서 2차원 리스트를 초기화할 때 매우 효과적으로 활용&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# N x M 크기의 2차원 리스트 초기화&lt;/span&gt;
+n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; _ &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;반복문에서의 언더바(&lt;code class=&quot;language-text&quot;&gt;_&lt;/code&gt;)의 역할&lt;/strong&gt;
+파이썬 자료구조/알고리즘에서 반복을 수행하되 반복을 위한 변수 값을 무시할 때, 언더바(&lt;code class=&quot;language-text&quot;&gt;_&lt;/code&gt;)를 활용&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; _ &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;특정 크기의 2차원 리스트를 초기화할 때는 반드시 리스트 컴피리헨션을 이용&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 잘못된 N X M 크기의 2차원 리스트 초기화&lt;/span&gt;
+n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; m&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; n
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]&lt;/span&gt;
+array&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [[0, 5, 0, 0], [0, 5, 0, 0], [0, 5, 0, 0]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;array[1][1]&lt;/code&gt;의 값을 5로 바꾸었는데, 3개의 리스트에서 인덱스 1에 해당하는 원소값이 모두 5로 변경
+이는 내부적으로 포함된 3개의 리스트가 모두 동일한 객체에 대한 3개의 레퍼런스로 인식되기 때문 (뒤의 두 리스트 = 첫 리스트의 레퍼런스)
+따라서, 특정 크기를 갖는 2차원 리스트를 초기화할 때는리스트 컴프리헨션을 활용&lt;/p&gt;
+&lt;h3 id=&quot;리스트-관련-기타-메서드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B4%80%EB%A0%A8-%EA%B8%B0%ED%83%80-%EB%A9%94%EC%84%9C%EB%93%9C&quot; aria-label=&quot;리스트 관련 기타 메서드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 관련 기타 메서드&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;메서드명&lt;/th&gt;
+&lt;th&gt;사용법&lt;/th&gt;
+&lt;th&gt;설명&lt;/th&gt;
+&lt;th&gt;시간복잡도&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;append()&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;변수명.append()&lt;/td&gt;
+&lt;td&gt;리스트에 원소를 하나 삽입&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;sort()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;변수명.sort()&lt;/td&gt;
+&lt;td&gt;오름차순 정렬 (기본정렬)&lt;/td&gt;
+&lt;td&gt;O(NlogN)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;변수명.sort(reverse=True)&lt;/td&gt;
+&lt;td&gt;내림차순 정렬&lt;/td&gt;
+&lt;td&gt;O(N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;reverse()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;변수명.reverse()&lt;/td&gt;
+&lt;td&gt;리스트 내 원소 순서를 뒤집음&lt;/td&gt;
+&lt;td&gt;O(N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;insert()&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;insert(삽입 위치 인덱스, 삽입 값)&lt;/td&gt;
+&lt;td&gt;특정 인덱스 위치에 원소를 삽입&lt;/td&gt;
+&lt;td&gt;O(N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;count()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;변수명.count(특정 값)&lt;/td&gt;
+&lt;td&gt;리스트 내 특정 값을 갖는 데이터 갯수&lt;/td&gt;
+&lt;td&gt;O(N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;remove()&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;변수명.remove(특정 값)&lt;/td&gt;
+&lt;td&gt;리스트 내 특정 값 원소를 제거&lt;/td&gt;
+&lt;td&gt;O(N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6 id=&quot;code-classlanguage-textremovecode사용-시-리스트-내-특정-값이-여러-개일-경우-하나만-제거&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textremovecode%EC%82%AC%EC%9A%A9-%EC%8B%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%82%B4-%ED%8A%B9%EC%A0%95-%EA%B0%92%EC%9D%B4-%EC%97%AC%EB%9F%AC-%EA%B0%9C%EC%9D%BC-%EA%B2%BD%EC%9A%B0-%ED%95%98%EB%82%98%EB%A7%8C-%EC%A0%9C%EA%B1%B0&quot; aria-label=&quot;code classlanguage textremovecode사용 시 리스트 내 특정 값이 여러 개일 경우 하나만 제거 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;&lt;code class=&quot;language-text&quot;&gt;remove()&lt;/code&gt;사용 시, 리스트 내 특정 값이 여러 개일 경우, 하나만 제거&lt;/em&gt;&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;기본 리스트: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 기본리스트: [1, 4, 3]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# append() 메서드&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;삽입: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 삽입: [1, 4, 3, 2]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 오름차순 정렬&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;오른차순 정렬: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 오름차순 정렬: [1, 2, 3, 4]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 내림차순 정렬&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reverse &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;내림차순 정렬: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 내림차순 정렬: [4, 3, 2, 1]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 리스트 원소 뒤집기&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reverse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;원소 뒤집기: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 원소 뒤집기: [1, 2, 3, 4]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 특정 인덱스에 데이터 추가&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;insert&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;인덱스 2에 3 추가: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 인덱스 2에 3 추가: [1, 2, 3, 3, 4]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 특정 값이 데이터 개수 세기&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;값이 3인 데이터 개수: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 2&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 특정 갓 데이터 삭제&lt;/span&gt;
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;remove&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;값이 1인 데이터 삭제: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [2, 3, 3, 4]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;리스트-메서드와-시간복잡도&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A9%94%EC%84%9C%EB%93%9C%EC%99%80-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84&quot; aria-label=&quot;리스트 메서드와 시간복잡도 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 메서드와 시간복잡도&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;insert()&lt;/code&gt;의 시간복잡도는 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(N)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10903em;&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; vs. &lt;code class=&quot;language-text&quot;&gt;append()&lt;/code&gt;의 시간복잡도는 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;code class=&quot;language-text&quot;&gt;insert()&lt;/code&gt;는 중간에 원소를 삽입한 뒤 리스트 원소 위치를 재조정하기 때문&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;remove()&lt;/code&gt;의 시간복잡도는 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(N)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10903em;&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;특정 값의 원소를 모두 제거&lt;/strong&gt;하기 위해서는 아래와 같은 코드를 활용&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+remove_set &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# remove_set에 포함되지 않은 값만을 저장&lt;/span&gt;
+result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; a &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; remove_set&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# [1, 2, 4]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;문자열-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;문자열 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문자열 자료형&lt;/h2&gt;
+&lt;h3 id=&quot;문자열-초기화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B4%88%EA%B8%B0%ED%99%94&quot; aria-label=&quot;문자열 초기화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문자열 초기화&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열 변수 초기화를 위해서는 큰따옴표(&lt;code class=&quot;language-text&quot;&gt;&amp;quot;&amp;quot;&lt;/code&gt;)나 작은따옴포(&lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;)를 이용&lt;/li&gt;
+&lt;li&gt;문자열이 큰따옴표로 구성된 경우, 내부적으로 작은따옴표 포함 가능
+반대로 문자열이 작은따옴표로 구성된 경우, 내부적으로 큰따옴표 포함 가능&lt;/li&gt;
+&lt;li&gt;백슬래시(&lt;code class=&quot;language-text&quot;&gt;\&lt;/code&gt;)를 이용하는 경우, 큰따옴표나 작은따옴표를 원하는만큼 포함 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hello World&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Hello World&lt;/span&gt;
+
+data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Don&apos;t you know \&quot;Python\&quot;?&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data &lt;span class=&quot;token comment&quot;&gt;# Don&apos;t you know &quot;Python&quot;?&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;문자열-연산&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%97%B0%EC%82%B0&quot; aria-label=&quot;문자열 연산 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문자열 연산&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;덧셈(&lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt;): 문자열이 더해져서 연결&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello&quot;&lt;/span&gt;
+b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;World&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;print(a + &quot; &quot; + b) # Hello World&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- 곱셈(`*`): 문자에 양의 정수를 곱하는 경우, 문자열이 그 값만큼 여러 번 더해짐
+
+```python
+a =. String&amp;quot;
+print(a * 3) # StingStringString&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;인덱싱 &amp;#x26; 슬라이싱: 문자열 내부는 리스트와 같이 처리되므로 인덱싱과 슬라이싱을 이용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ABCDEF&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# CD&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;튜플-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8A%9C%ED%94%8C-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;튜플 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;튜플 자료형&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;튜플 자료형은 리스트와 유사하나 일부 차이가 있음&lt;/li&gt;
+&lt;li&gt;튜플은 한 번 선언된 값을 변경할 수 없음&lt;/li&gt;
+&lt;li&gt;소괄호&lt;code class=&quot;language-text&quot;&gt;()&lt;/code&gt;를 이용함 (리스트는 대괄호&lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt;를 이용)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;아래 코드를 실행할 경우 튜플 타입은 변경할 수 없기 때문에 오류가 발생하며,
+대입 연산자를 활용한 값 변경이 불가능함&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+a&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;튜플 자료형은 그래프 알고리즘을 구현시 자주 활용&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;다익스트라 최단 경로 알고리즘&lt;/code&gt; 등 최단 경로를 찾는 알고리즘 내부에는
+&lt;strong&gt;우선순위 큐&lt;/strong&gt;를 활용하는데, 해당 알고리즘에서 우선순위 큐에 한 번 들어간 값은 변경되지 않음&lt;/li&gt;
+&lt;li&gt;따라서 우선순위 큐에 들어가는 데이터를 튜플로 구성하여 소스코드를 작성&lt;/li&gt;
+&lt;li&gt;튜플을 이용하면, 자신이 알고리즘을 잘못 작성하여 변경하면 안되는 값이 변경되고 있지 않은지 체크 가능&lt;/li&gt;
+&lt;li&gt;튜플은 리스트에 비해 상대적으로 공간 효율적&lt;/li&gt;
+&lt;li&gt;일반적으로 각 원소의 성질이 서로 다를 때 주로 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;사전-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;사전 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 자료형&lt;/h2&gt;
+&lt;h3 id=&quot;사전-자료형-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%9E%90%EB%A3%8C%ED%98%95-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot;사전 자료형 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 자료형 소개&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;사전 자료형은 키(key)와 값(value) 쌍을 데이터로 갖는 자료형&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;키-값 쌍을 데이터로 가진다는 점에서, 우리가 원하는 변경 불가능한 데이터를 키로 사용&lt;/p&gt;
+&lt;h6 id=&quot;변경-불가능한-자료형-수-문자열-튜폴-자료형과-같이-한번-초기화되면-변경이-불가능한-자료형-튜플-자료형이-키로-사용되기도-함-q-22&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%9E%90%EB%A3%8C%ED%98%95-%EC%88%98-%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%8A%9C%ED%8F%B4-%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC-%EA%B0%99%EC%9D%B4-%ED%95%9C%EB%B2%88-%EC%B4%88%EA%B8%B0%ED%99%94%EB%90%98%EB%A9%B4-%EB%B3%80%EA%B2%BD%EC%9D%B4-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%9E%90%EB%A3%8C%ED%98%95-%ED%8A%9C%ED%94%8C-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%B4-%ED%82%A4%EB%A1%9C-%EC%82%AC%EC%9A%A9%EB%90%98%EA%B8%B0%EB%8F%84-%ED%95%A8-q-22&quot; aria-label=&quot;변경 불가능한 자료형 수 문자열 튜폴 자료형과 같이 한번 초기화되면 변경이 불가능한 자료형 튜플 자료형이 키로 사용되기도 함 q 22 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경 불가능한 자료형: 수, 문자열, 튜폴 자료형과 같이 한번 초기화되면 변경이 불가능한 자료형, 튜플 자료형이 키로 사용되기도 함 (Q 22)&lt;/h6&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;키-값 쌍으로 구성된 데이터를 담는 예시&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;키(Key)&lt;/th&gt;
+&lt;th&gt;값(Value)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;사과&lt;/td&gt;
+&lt;td&gt;Apple&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;바나나&lt;/td&gt;
+&lt;td&gt;Banana&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;코코넛&lt;/td&gt;
+&lt;td&gt;Coconut&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬의 사전 자료형은 내부적으로 &apos;해시 테이블&apos;을 이용하므로 데이터 검색 및 수정에 있어 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;의 시간에 처리 가능함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;해시테이블&lt;/strong&gt;
+키-값 쌍으로 구성된 데이터를 처리함에 있어서 리스트보다 훨씬 빠르게 동작&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;사과&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Apple&apos;&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;바나나&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Banana&apos;&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;코코넛&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Coconut&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {‘사과’: ‘Apple’, ‘바나나: ‘Banana’, ‘코코넛’: ‘Coconut’}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;코딩 테스트에서의 사전 자료형 활용&lt;/strong&gt;
+학생 번호 1부터 10,000,000까지 구성된 상황에서 최대 10,000명의 학생을 선택하여 특정 학생 번호가 주어졌을 때, 해당 학생이 선택된지 파악하는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트를 이용하는 경우
+1부터 10,000,000까지 각 번호가 선택되었는지를 저장하는 리스트를 생성&lt;/li&gt;
+&lt;li&gt;사전자료형을 이용하는 경우
+10,000개의 데이터만 사전 자료구조에 넣어서 활용하며, 메모리 공간 절약&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(원소) in (사전)&lt;/code&gt;을 이용하여, 사전 자료형에 특정한 원소가 있는지 확인
+리스트, 튜플에 대해서도 활용 가능함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Iterable 자료형&lt;/strong&gt;
+파이썬에서 리스트, 문자열, 튜플 등 ‘순차적’정보를 담는 자료형을 뜻함
+&lt;code class=&quot;language-text&quot;&gt;in&lt;/code&gt; 문법은 iterable 자료형에서 모두 활용 가능함&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;‘사과’&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ‘Apple’
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;바나나&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Banana&apos;&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;코코넛&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Coconut&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; ‘사과’ &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;“‘사과’를 키로 가지는 데이터가 존재합니다&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;”&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;사전-자료형-관련-함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%9E%90%EB%A3%8C%ED%98%95-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98&quot; aria-label=&quot;사전 자료형 관련 함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 자료형 관련 함수&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;keys()&lt;/code&gt;: 키 데이터만 뽑아 리스트로 활용&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;values()&lt;/code&gt;: 값 데이터만 뽑아서 리스트로 활용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;‘사과’&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ‘Apple’
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;바나나&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Banana&apos;&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;코코넛&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Coconut&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 키 데이터만 담은 리스트&lt;/span&gt;
+key_list &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;keys&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 값 데이터만 담은 리스트&lt;/span&gt;
+value_list &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;key_list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# dict_keys([‘사과’, ‘바나나’, ‘코코넛’])&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value_list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# dict_values([‘Apple’, ‘Banana’, ‘Coconut’])&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 각 키에 따른 값을 하나씩 출력&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; key &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; key_list&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Apple Banana Coconut&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;집합-자료형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9-%EC%9E%90%EB%A3%8C%ED%98%95&quot; aria-label=&quot;집합 자료형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합 자료형&lt;/h2&gt;
+&lt;h3 id=&quot;집합-자료형-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9-%EC%9E%90%EB%A3%8C%ED%98%95-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot;집합 자료형 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합 자료형 소개&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;집합(Set)을 처리하기 위한 자료형&lt;/li&gt;
+&lt;li&gt;집합은 기본적으로 리스트 혹은 문자열을 활용해 만들어냄&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;집합의-특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9%EC%9D%98-%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;집합의 특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합의 특징&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;중복을 허용하지 않음&lt;/li&gt;
+&lt;li&gt;순서가 없음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;리스트--튜플-vs-사전-자료형--집합&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%ED%8A%B8--%ED%8A%9C%ED%94%8C-vs-%EC%82%AC%EC%A0%84-%EC%9E%90%EB%A3%8C%ED%98%95--%EC%A7%91%ED%95%A9&quot; aria-label=&quot;리스트  튜플 vs 사전 자료형  집합 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스트 &amp;#x26; 튜플 vs 사전 자료형 &amp;#x26; 집합&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트 &amp;#x26; 튜플: 순서가 존재, 인덱싱을 통해 자료형의 값에 접근 가능
+특정 원소가 존재하는지 검사하는 연산의 시간복잡도: &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(N)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10903em;&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;사전 자료형 &amp;#x26; 집합: 순서가 없으며, 인덱싱으로 값을 얻을 수 없음
+특정 원소가 존재하는지 검사하는 연산의 시간복잡도: &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;사전-자료형--집합&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%9E%90%EB%A3%8C%ED%98%95--%EC%A7%91%ED%95%A9&quot; aria-label=&quot;사전 자료형  집합 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 자료형 &amp;#x26; 집합&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;사전 자료형: 키가 존재하여 키로 자료형의 값에 접근&lt;/li&gt;
+&lt;li&gt;집합 자료형: 키가 없으며 값 데이터만을 담고 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;코딩 테스트에서의 집합 자료형 활용&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;‘특정 데이터가 등장한 적이 있는지 여부’를 확인할 때 매우 효과적&lt;/li&gt;
+&lt;li&gt;이전 학생 번호가 주어졌을 때 해당 학생이 선택되었는지 여부를 출력하는 문제에서 효과적으로 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;집합-자료형의-초기화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%98-%EC%B4%88%EA%B8%B0%ED%99%94&quot; aria-label=&quot;집합 자료형의 초기화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합 자료형의 초기화&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;set()&lt;/code&gt; 혹은 &lt;code class=&quot;language-text&quot;&gt;{}&lt;/code&gt;을 활용하여 집합 자료형을 초기화&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 집합 자료형 초기화 방법 1&lt;/span&gt;
+data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, 1, 2, 3, 4, 4, 5}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 집합 자료형 초기화 방법 2&lt;/span&gt;
+data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, 1, 2, 3, 4, 4, 5}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;집합-자료형의-연산&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%98-%EC%97%B0%EC%82%B0&quot; aria-label=&quot;집합 자료형의 연산 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합 자료형의 연산&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;집합 자료형의 연산으로는 &lt;code class=&quot;language-text&quot;&gt;합집합(|)&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;교집합(&amp;amp;)&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;차집합(-)&lt;/code&gt; 연산이 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 합집합 # {1, 2, 3, 4, 5, 6, 7}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 교집합 # {3, 4, 5}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 차집합 # {1, 2}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;집합-자료형-관련-함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%91%ED%95%A9-%EC%9E%90%EB%A3%8C%ED%98%95-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98&quot; aria-label=&quot;집합 자료형 관련 함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;집합 자료형 관련 함수&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;add()&lt;/code&gt;: 집합 데이터에 값을 추가 (시간복잡도: &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;update()&lt;/code&gt;: 집합에 여러 개의 값을 한번에 추가&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;remove()&lt;/code&gt;: 집합에서 특정 값을 제거 (시간복잡도: &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, 2, 3}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 새로운 원소 추가 add()&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, 2, 3, 4}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 새로운 원소 여러개 추가 update()&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;updata&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, 2, 3, 4, 5, 6}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 특정한 값을 갖는 원소 삭제&lt;/span&gt;
+data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;remove&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
