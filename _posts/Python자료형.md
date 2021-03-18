@@ -1,5 +1,5 @@
 ---
-title: [Python] 자료형
+title: Python 자료형
 date: 2020-10-16
 tags:
   - python
